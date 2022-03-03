@@ -1,0 +1,137 @@
+body {
+    font-family: "Helvetica", sans-serif;
+    color: seashell;
+    background-color: black;
+    font-size: 22px;
+    opacity: 0.9;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*  navigation  */
+
+
+header {
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+}
+
+#nav-logo {
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    float: right;
+}
+
+nav li {
+    list-style: none;
+    display: inline-flex;
+    margin-right: 10px;
+    padding: 0 15px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: seashell;
+}
+
+
+/*  Mission Container  */
+
+
+#mission {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    width: 1200px;
+    height: 700px;
+    text-align: center;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.mission-text {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+    padding: 0px 20px;
+}
+
+
+/*  featured teas  */
+
+
+#featured-teas {
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.tea-type {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.tea-type img {
+    height: 200px;
+    width: 300px;
+}
+
+
+/*  locations  */
+
+
+#location-container {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    max-width: 1200px;
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+#locations {
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.location-box {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+    margin: 15px 20px;
+    line-height: 45px;
+}
+
+.contact {
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+span {
+    float: left;
+    margin-left: 20px;
+    font-weight: bold;
+}
