@@ -98,7 +98,7 @@ nav li a {
 /*  locations  */
 
 
-#location-container {
+#locations {
     background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
     max-width: 1200px;
     min-height: 500px;
@@ -109,7 +109,7 @@ nav li a {
     padding: 50px;
 }
 
-#locations {
+#location-container {
     width: 1200px;
     display: flex;
     flex-wrap: wrap;
